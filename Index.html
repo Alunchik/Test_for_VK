@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+    <main>
+        <form action="" id="booking_form">
+            <fieldset>
+                <p>
+                    <label for="tower_select">Выберите башню</label>
+                    <select name="tower" id="tower_select">
+                        <option value="А">А</option>
+                        <option value="Б">Б</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="floor_select">Выберите башню</label>
+                    <select name="floor" id="floor_select">
+                    </select>
+                </p>
+                <p>
+                    <label for="meetingroom_select">Выберите переговорную</label>
+                    <select name="meetingroom" id="meetingroom_select">
+                    </select>
+                </p>
+                <p>
+                    <label for="datetime">Выберите дату и время</label>
+                    <p id="datetime">
+                <p id="date">
+                <label for="bookingDate">Дата</label>
+                <input id="bookingDate" class="form-control" type="date" />
+                </p>
+                <p id="time">
+                    <label for="start_time">Время начала</label>
+                    <input type="time" id="start_time">
+                    <label for="end_time">Время окончания</label>
+                    <input type="time" id="end_time">
+                </p>
+                </p>
+            </p>
+
+                <p>
+                    <label for="comment">Комментарий</label>
+                    <textarea maxlength="300" name="comment" id="comment" cols="30" rows="10" >
+
+                    </textarea>
+                </p>
+            </fieldset>
+            <button  type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </main>
+</body>
+<script src="form.js"></script>
+</html>
